@@ -17,6 +17,26 @@ This is an Epicodus practice project for week 4 of the .NET course.  Its purpose
 * .NET
 * Twilio
 
+## Set up a Twilio account
+Make a free Twilio account. After you create your account, you will be asked to provide a phone number for verification. If you only want to use the free trial Twilio account, you will only be able to send texts to verified phone numbers. The number you provide here will be verified so you can use it in this app.
+
+After you verify your account, you will be taken to your account dashboard. Click "Get Started". You will be taken to https://www.twilio.com/console/sms/getting-started/basics and given the option to get your first Twilio Phone Number. Choose one that you like, and this will be the "From" number used in this app.
+
+Now, navigate to your Account Settings page, and find the API Credentials section containing both live and test credentials. We'll use the live Account SID and Auth Token in this app. 
+
+Open the app solution in Visual Studio.  In the Models folder, create a class named EnvironmentVariables.cs  Add the following code to EnvironmentVariables.cs  Replace the text that is in all caps with the account SID and authtoken from your Twilio account.  
+
+```
+namespace Texter.Models
+{
+    public static class EnvironmentVariables
+    {
+        public static string AccountSid = "YOUR ACCOUNT SID HERE";
+        public static string AuthToken = "YOUR AUTHTOKEN HERE";
+    }
+}
+```
+
 ## Run the Application  
 
   * _Clone the github respository_

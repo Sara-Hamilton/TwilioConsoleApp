@@ -14,7 +14,6 @@ namespace TwilioConsoleApp
         public string From { get; set; }
         public string Body { get; set; }
         public string Status { get; set; }
-
     }
 
     class Program

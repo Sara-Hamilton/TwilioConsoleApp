@@ -24,7 +24,7 @@ After you verify your account, you will be taken to your account dashboard. Clic
 
 Now, navigate to your Account Settings page, and find the API Credentials section containing both live and test credentials. We'll use the live Account SID and Auth Token in this app. 
 
-Open the app solution in Visual Studio.  In the Models folder, create a class named EnvironmentVariables.cs  Add the following code to EnvironmentVariables.cs  Replace the text that is in all caps with the account SID and authtoken from your Twilio account.  
+Open the app solution in Visual Studio.  In the project, create a class named EnvironmentVariables.cs  Add the following code to EnvironmentVariables.cs  Replace the text that is in all caps with the account SID and authtoken from your Twilio account.  
 
 ```
 namespace Texter.Models

@@ -1,4 +1,4 @@
-﻿# Autosave files
+# Autosave files
 *~
 
 # build
@@ -41,8 +41,8 @@ Thumbs.db
 
 .vs/
 
-.VS/
-
 # SQL Server files
 *.mdf
 *.ldf
+
+EnvironmentVariables.cs
